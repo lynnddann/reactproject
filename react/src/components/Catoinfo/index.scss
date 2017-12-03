@@ -1,0 +1,78 @@
+.catoinfotop{
+		background:#fff;
+		position: fixed;
+	    z-index: 10;
+	    right: 0;
+	    left: 0;
+	    height: 0.88rem;
+	    padding-right: 0.2rem;
+	    padding-left: 0.2rem;
+	    border-bottom:0.02rem solid #d5d5d5;
+	    .icon-back{
+	    	float: left;
+	    	line-height: 0.88rem;
+	    	font-size:20px;
+	    	coloe:#999;
+	    }
+	    h1{
+	    	float:left;
+	    	font-size: 18px;
+	    	font-weight: 500;
+	    	line-height: 0.88rem;
+	    	width:5.9rem;
+	    	text-align: center;
+	    }
+	}
+
+	.catoinfocontent{
+		padding-top:0.88rem;
+		background:#f7f7f7;
+		.num{
+			height:0.8rem;
+			line-height:0.8rem;
+			font-size:14px;
+			color:#8f8f94;
+			padding-left:0.3rem;
+		}
+		.kong{
+			font-size:14px;
+			text-align: center;
+			background:#f1eeec;
+			height:0.8rem;
+			line-height: 0.8rem;
+			color:#999;
+		}
+		.catoinfolist{
+			background:#fff;
+			list-style: none;
+			li{
+				padding:0.2rem 0.3rem;
+				border-bottom:0.02rem solid #d5d5d5;
+				overflow: hidden;
+				.catoinfopic{
+					float:left;
+					width:20%;
+					height:20%;
+					img{
+						display: block;
+						width:100%;
+						height:20%;
+					}
+				}
+				.catoinforight{
+					float:left;
+					width:77%;
+					font-size:13px;
+					margin-left:3%;
+					.catoinfotitle{
+						color:#666;
+						margin-bottom:0.2rem;
+					}
+					p{
+						color:#8f8f94;
+						font-size:12px;
+					}
+				}
+			}
+		}
+	}

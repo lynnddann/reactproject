@@ -1,0 +1,20 @@
+.comment-main{
+	width:100%;
+	position:relative;
+	padding-top:0.88rem;
+	font-size:14px;
+	.commentlist{
+		.comment-li{
+			padding: 0.2rem 0 0.3rem 0.24rem;
+			border-bottom:0.02rem solid #d5d5d5;
+			.comment-custmor{
+				height: 0.48rem;
+			}
+			.comment-content{
+				line-height: 0.36rem;
+				padding:0.2rem 0;
+			}
+		}
+	}
+}
+		

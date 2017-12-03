@@ -1,0 +1,70 @@
+.cart{
+	width:100%;
+	position:relative;
+	padding-top:0.88rem;
+	.cartlist{
+			padding:0.2rem;
+			overflow: hidden;
+			border-bottom:0.02rem solid #d5d5d5;
+			.cartlist-left{
+				float: left;
+				margin-right:0.2rem;
+				width:1.8rem;
+				img{
+					width:1.8rem;
+					height: 1.8rem;
+					display: block;
+				}
+			}
+			.cartlist-right{
+				float: left;
+				font-size: 14px;
+				.cartlist-top{
+					overflow: hidden;
+					.cartlist-title{
+						float: left;
+						margin-right:0.2rem;
+						line-height:0.44rem;
+					}
+					.icon-delete{
+						float: right;
+						line-height:0.44rem;
+					}
+				}
+				.cartlist-bottom{
+					padding-top:0.8rem;
+					overflow: hidden;
+					.cartlist-price{
+						float: left;
+					}
+					.cartlist-input{
+						overflow: hidden;
+						float: right;
+						width:0.5rem;
+						height: 0.64rem;
+						//border:0.02rem solid #d5d5d5;
+						line-height: 0.64rem;
+						text-align: center;
+						.add{
+							float: left;
+							width: 0.66rem;
+							border-left:0.02rem solid #d5d5d5;
+						}
+						.changenum{
+							float: left;
+							width:0.44rem;
+							height:0.64rem;
+							border:none;
+							background:none;
+							text-align: center;
+						}
+						.minus{
+							float: left;
+							width: 0.66rem;
+							border-right:0.02rem solid #d5d5d5;
+						}
+					}
+				}
+			}
+	}
+}
